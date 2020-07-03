@@ -123,13 +123,13 @@
 1. Within the SSH session to the Azure VM **lab08vm1**, run the following to update locally installed packages and their dependencies:
 
     ```sh
-    sudo apt-get upgrade
+    sudo apt-get update
     ```
 
 1. Within the SSH session to the Azure VM **lab08vm1**, run the following to ensure that there are no remaining updates to be processed:
 
     ```sh
-    sudo -i apt update
+    sudo -i apt upgrade
     ```
 
 1. Within the SSH session to the Azure VM **lab08vm1**, run the following to install Azure CLI: 
