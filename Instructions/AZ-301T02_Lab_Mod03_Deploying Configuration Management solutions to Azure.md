@@ -184,7 +184,6 @@
             }
         }
     ]
-}
     ```
 
 1. At the **Cloud Shell** command prompt, type in the following command and press **Enter** to create a variable which value designates the name of the resource group that will contain the hub virtual network:
@@ -308,17 +307,19 @@
 
 #### Task 3: Onboard Linux VM
 
-1. Navigate back to the **LinuxAutomation - State Configuration (DSC)** blade.
+1. Navigate to **Virtual Machines** and assign the **Automation Account** under Operations / Update Management on the VM.
 
-1. Back on the **LinuxAutomation - State Configuration (DSC)** blade, click the **Nodes** link.
+2. Navigate back to the **LinuxAutomation - State Configuration (DSC)** blade.
 
-1. On the **LinuxAutomation - State configuration (DSC)** blade, click the **+ Add** button at the top of the pane.
+3. Back on the **LinuxAutomation - State Configuration (DSC)** blade, click the **Nodes** link.
 
-1. On the **Virtual Machines** blade, click the entry representing the Linux virtual machine you deployed in the previous exercise.
+4. On the **LinuxAutomation - State configuration (DSC)** blade, click the **+ Add** button at the top of the pane.
 
-1. On the virtual machine blade, click **+ Connect**.
+5. On the **Virtual Machines** blade, click the entry representing the Linux virtual machine you deployed in the previous exercise.
 
-1. On the **Registration** blade, perform the following tasks:
+6. On the virtual machine blade, click **+ Connect**.
+
+7. On the **Registration** blade, perform the following tasks:
 
     - Leave the **Registration key** setting with its default value.
 
@@ -328,21 +329,21 @@
 
     - Click the **OK** button.
 
-1. Wait for the connection process to complete before you proceed to the next step.
+8. Wait for the connection process to complete before you proceed to the next step.
 
-1. Navigate back to the **LinuxAutomation - State Configuration (DSC)** blade.
+9. Navigate back to the **LinuxAutomation - State Configuration (DSC)** blade.
 
-1. On the **LinuxAutomation - State configuration (DSC)** blade, select in the **NODE** section the virtual machine you deployed in the previous exercise.
+10. On the **LinuxAutomation - State configuration (DSC)** blade, select in the **NODE** section the virtual machine you deployed in the previous exercise.
 
     > **Note**: You may need to refresh the blade.
 
-1. On the virtual machine blade, click **Assign node configuration**.
+11. On the virtual machine blade, click **Assign node configuration**.
 
-1. On the Assign Node Configuration blade, select the node configuration **lampserver.host** and click the **OK** button.
+12. On the Assign Node Configuration blade, select the node configuration **lampserver.host** and click the **OK** button.
 
-1. Back on the **LinuxAutomation - State Configuration (DSC)** blade, click the **Refresh** button.
+13. Back on the **LinuxAutomation - State Configuration (DSC)** blade, click the **Refresh** button.
 
-1. In the list of DSC nodes, verify that the Linux virtual machine has the **Compliant** status.
+14. In the list of DSC nodes, verify that the Linux virtual machine has the **Compliant** status.
 
     > **Note**: You may need to wait for up to 30 minutes for the new status to be updated.
     
