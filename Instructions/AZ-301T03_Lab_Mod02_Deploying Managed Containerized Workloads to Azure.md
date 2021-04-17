@@ -133,7 +133,12 @@
     ```
 
     > **Note**: Make sure to use lower case letters when typing the name of the deployment. You will also receive a notification that this command is deprecated and will be removed in a future version, but successfully created the cluster.
+    
+1. At the **Cloud Shell** command prompt, type in the following command and press **Enter** to create a deployment:
 
+    ```
+    kubectl create deployment aad0402-akscluster --image=nginx --replicas=1 --port=80
+    ```
 1. At the **Cloud Shell** command prompt, type in the following command and press **Enter** to verify that a Kubernetes pod has been created:
 
     ```
